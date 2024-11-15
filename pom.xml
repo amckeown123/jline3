@@ -87,9 +87,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputTimestamp>2024-10-15T19:03:37Z</project.build.outputTimestamp>
 
-        <java.build.version>22</java.build.version>
+        <java.build.version>8</java.build.version>
         <java.release.version>8</java.release.version>
-        <maven.version>3.9.6</maven.version>
+        <maven.version>3.9.9</maven.version>
 
         <native.image.skip>true</native.image.skip>
         <automatic.module.name />
@@ -104,9 +104,9 @@
         <gogo.jline.version>1.1.8</gogo.jline.version>
         <slf4j.version>2.0.16</slf4j.version>
         <findbugs.version>3.0.2</findbugs.version>
-        <groovy.version>4.0.23</groovy.version>
+        <groovy.version>4.0.24</groovy.version>
         <ivy.version>2.5.2</ivy.version>
-        <graal.version>24.1.0</graal.version>
+        <graal.version>24.1.1</graal.version>
         <graal.plugin.version>21.2.0</graal.plugin.version>
 
         <surefire.argLine>--add-opens java.base/java.io=ALL-UNNAMED</surefire.argLine>
@@ -615,7 +615,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <id>enforce-maven</id>
