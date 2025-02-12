@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.jline</groupId>
         <artifactId>jline-parent</artifactId>
-        <version>3.27.2-SNAPSHOT</version>
+        <version>3.27.1</version>
     </parent>
 
     <artifactId>jline-remote-ssh</artifactId>
@@ -28,10 +28,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jline</groupId>
-            <artifactId>jline-builtins</artifactId>
+<groupId>org.jline</groupId>
+<artifactId>jline-builtins</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.apache.sshd</groupId>
             <artifactId>sshd-core</artifactId>
@@ -62,5 +61,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
